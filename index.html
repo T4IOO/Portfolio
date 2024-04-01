@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html id="test" lang="fr" class="dark">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Théo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"  rel="stylesheet" />
+    <link rel="icon" href="img/icon.png" />
+</head>
+<body class="bg-custom4 overflow-x-hidden absolute top-0 right-0 left-0">
+<article class="h-max" id="header">
+    <div class="z-10 relative">
+        <nav class="border-gray-200 transparent">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
+                <a href="#" class="flex items-center">
+                    <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent bg-gray-800 md:bg-gray-900 border-gray-700">
+                        <li class="slide-down">
+                            <a href="#" class="flex flex-row items-center md:px-5 block py-2 pl-3 pr-4  bg-blue-700 rounded md:bg-transparent md:p-0  text-custom3 text-lg" aria-current="page">
+                                Accueil</a>
+                        </li>
+                        <li class="slide-down">
+                            <a href="#whoiam" class="flex flex-row items-center md:px-5 block py-2 pl-3 pr-4 rounded md:rounded-none hover:bg-gray-100 md:hover:bg-transparent md:hover:text-custom1 md:p-0 text-custom3  hover:bg-gray-700 hover:text-white md:hover:bg-transparent text-lg">
+                                Qui suis-je ?</a>
+                        </li>
+                        <li class="slide-down">
+                            <a href="#projets" class="flex flex-row items-center md:px-5 block py-2 pl-3 pr-4 rounded md:rounded-none hover:bg-gray-100 md:hover:bg-transparent md:hover:text-custom1 md:p-0  text-custom3 hover:bg-gray-700 hover:text-white md:hover:bg-transparent text-lg">
+                                Projets</a>
+                        </li>
+                        <li class="slide-down">
+                            <a href="#experience" class="flex flex-row items-center md:px-5 block py-2 pl-3 pr-4 rounded md:rounded-none hover:bg-gray-100 md:hover:bg-transparent md:hover:text-custom1 md:p-0  text-custom3  hover:bg-gray-700 hover:text-white md:hover:bg-transparent text-lg">
+                                Expériences</a>
+                        </li>
+                        <li class="slide-down">
+                            <a href="#competence" class="flex flex-row items-center md:px-5 block py-2 pl-3 pr-4 rounded md:rounded-none hover:bg-gray-100 md:hover:bg-transparent md:hover:text-custom1 md:p-0  text-custom3  hover:bg-gray-700 hover:text-white md:hover:bg-transparent text-lg">
+                                Compétences</a>
+                        </li>
+                        <li class="slide-down">
+                            <a href="#contact" class="flex flex-row items-center md:px-5 block py-2 pl-3 pr-4 rounded md:rounded-none hover:bg-gray-100 md:hover:bg-transparent md:hover:text-custom1 md:p-0 text-custom3  hover:bg-gray-700 hover:text-white md:hover:bg-transparent text-lg">
+                                Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="transparent mt-32">
+            <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+                <div class="mr-auto place-self-center lg:col-span-7">
+                    <p class="text-custom1 font-bold mb-4">Salut, je suis</p>
+                    <h1 class="max-w-2xl mb-4 text-4xl font-semibold tracking-tight leading-none md:text-5xl xl:text-6xl text-white mb-8">Théo Le Guern.</h1>
+                    <h1 class="max-w-2xl mb-4 text-4xl font-semibold tracking-tight leading-none md:text-5xl xl:text-6xl text-white"><span class="text-custom3">Développeur.</span></h1>
+                    <p class="max-w-2xl mb-6  text-custom3 lg:mb-8 md:text-lg lg:text-xl mt-10">Je suis un étudiant de 21 ans au <a href="https://www.lyceerobertschuman.com/" target="_blank" class="text-custom1 hover:underline">Lycée technique Robert Schuman</a> à Dugny, actuellement en 2ème année de BTS SIO option SLAM.</p>
+                    <a href="#whoiam" class="inline-flex items-center justify-center px-8 py-2 text-base font-bold text-center text-custom1 border-2 border-custom1 rounded-full hover:bg-custom1 hover:text-white">
+                        Commencer >
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</article>
+<article class="px-10 relative mt-32" id="whoiam">
+    <section class="reveal">
+        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+            <div class="font-light sm:text-lg text-custom3 ">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">Qui suis-je ?</h2>
+                <p class="mb-4">Je suis Théo Le Guern, un étudiant en BTS Services Informatiques aux Organisations, option Solutions Logicielles et Applications Métiers (SLAM) !</p>
+                <p>Actuellement toujours en cours d'étude, je vous propose sur ce portfolio de retrouver ci-dessous les différentes études, et projet professionnel que j'ai pu entreprendre au sein de ma carrière.</p>
+                <div class="text-custom1 mt-5">
+                    <a href="CV_ALTERNANCE_informatique_.pdf_1%20(1).pdf" target="_blank" class="inline-flex items-center justify-center px-6 py-1 rounded-full font-bold border-2 border-custom1 hover:bg-custom1 hover:text-white mr-3">Mon CV</a>
+                    <a href="Tableau_de_synthese_LE_GUERN_THEO.xlsx" target="_blank" class="inline-flex items-center justify-center px-6 py-1 rounded-full font-bold border-2 border-custom1 hover:bg-custom1 hover:text-white mr-3">Mon tableau de synthèse</a>
+                    <a href="veille.html" class="inline-flex items-center justify-center px-6 py-1 rounded-full font-bold border-2 border-custom1 hover:bg-custom1 hover:text-white">Ma veille</a>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4 mt-8">
+                <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
+            </div>
+        </div>
+    </section>
+</article>
+<article class="pt-56 pb-32 px-32" id="projets">
+    <div class="flex flex-col mx-auto max-w-screen-xl">
+        <div class="mb-20 flex items-center justify-center">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">Projets</h2>
+        </div>
+        <div class="flex flex-row h-auto mb-16 reveal">
+            <div class="w-2/5">
+                <h3 class="text-white text-3xl mb-3">LPRS PHP</h3>
+                <a class="text-custom1">HTML / CSS / PHP / MYSQL</a>
+                <p class="text-custom3 mt-3">L'objectif du projet était de développer un site web permettant la mise en relation entre les étudiants et les entreprises partenaires.</p>
+                <a href="#" class="w-32 mt-5 block text-white bg-custom1 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center" style="cursor: pointer;">Voir le projet</a>
+            </div>
+        </div>
+        <div class="flex flex-row h-auto reveal">
+            <div class="w-2/5">
+                <h3 class="text-white text-3xl mb-3">LPRS JAVA</h3>
+                <a class="text-custom1">JAVA / JAVAFX / MYSQL</a>
+                <p class="text-custom3 mt-3">L'objectif du projet était de développer une application de gestion d'une école.</p>
+                <a href="#" class="w-32 mt-5 block text-white bg-custom1 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center" style="cursor: pointer;">Voir le projet</a>
+            </div>
+        </div>
+    </div>
+</article>
+<article class="pt-48 pb-32 reveal px-10 mx-auto max-w-screen-xl" id="experience">
+    <div class="flex items-center justify-center mb-32">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">Expériences</h2>
+    </div>
+    <div class="flex flex-row justify-center text-2xl ml-12 mb-16 ">
+        <button onclick="changeTimeline(1)" id="educative" class="text-custom1 mr-5 flex flex-row items-center font-bold">
+            Educative
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6 ml-3 font-bold">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+            </svg>
+        </button>
+        <div class="col-start-5 col-end-6 relative">
+            <div class="h-full w-6 flex items-center justify-center">
+                <div class="h-full w-1 bg-custom1 pointer-events-none"></div>
+            </div>
+        </div>
+        <button onclick="changeTimeline(2)" id="profesionnel" class="text-white ml-5 flex flex-row items-center font-bold">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6 mr-3">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z" />
+            </svg>
+            Profesionnelle
+        </button>
+    </div>
+    <div class="">
+        <div
+                class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50"
+        >
+            <!-- left -->
+            <div class="flex flex-row-reverse md:contents">
+                <div class="blocEdu col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md transition-all ease-in-out delay-150 duration-300">
+                    <h3 class="font-semibold text-lg mb-1">Collège Jean-Baptiste Clément, Dugny</h3>
+                    <div class="flex items-end flex-col">
+                        <p class="leading-tight text-justify text-custom3 mb-3">
+                            2017 - 2018
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                    <div class="h-full w-6 flex items-center justify-center">
+                        <div class="h-full w-1 bg-custom1 pointer-events-none"></div>
+                    </div>
+                    <div
+                            class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-custom1 shadow"
+                    ></div>
+                </div>
+                <div
+                        class="blocPro col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md opacity-0 transition-all ease-in-out delay-150 duration-300"
+                >
+                    <h3 class="font-semibold text-lg mb-1">Arc Mobile <span class="mx-2">-</span> Vendeur en téléphonie</h3>
+                    <p class="leading-tight text-justify text-custom3 mb-3">
+                        2022
+                    </p>
+                </div>
+            </div>
+            <!-- right -->
+            <div class="flex md:contents">
+                <div
+                        class="blocPro col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md opacity-0 transition-all ease-in-out delay-150 duration-300"
+                >
+                    <h3 class="font-semibold text-lg mb-1">Evernex <span class="mx-2">-</span> Magasinier / Cariste</h3>
+                    <div class="flex items-end flex-col">
+                        <p class="leading-tight text-justify text-custom3 mb-3">
+                            2022
+                        </p>
+                    </div>
+                </div>
+                <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                    <div class="h-full w-6 flex items-center justify-center">
+                        <div class="h-full w-1 bg-custom1 pointer-events-none"></div>
+                    </div>
+                    <div
+                            class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-custom1 shadow"
+                    ></div>
+                </div>
+                <div
+                        class="blocEdu col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md transition-all ease-in-out delay-150 duration-300"
+                >
+                    <h3 class="font-semibold text-lg mb-1">Lycée Germain Tillon, Le Bourget <span class="mx-2">-</span> Bac Mention Assez Bien</h3>
+                    <p class="leading-tight text-justify text-custom3 mb-3">
+                        2020 - 2021
+                    </p>
+                </div>
+            </div>
+            <!-- left -->
+            <div class="flex flex-row-reverse md:contents">
+                <div
+                        class="blocEdu col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md transition-all ease-in-out delay-150 duration-300"
+                >
+                    <h3 class="font-semibold text-lg mb-1">CFA Imc Alternance, Paris 1er <span class="mx-2">-</span> BTS MCO</h3>
+                    <div class="flex items-end flex-col">
+                        <p class="leading-tight text-justify text-custom3 mb-3">
+                            2021 - 2022
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                    <div class="h-full w-6 flex items-center justify-center">
+                        <div class="h-full w-1 bg-custom1 pointer-events-none"></div>
+                    </div>
+                    <div
+                            class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-custom1 shadow"
+                    ></div>
+                </div>
+                <div
+                        class="blocPro col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md opacity-0 transition-all ease-in-out delay-150 duration-300"
+                >
+                    <h3 class="font-semibold text-lg mb-1">Cora <span class="mx-2">-</span> Service du drive et magasin</h3>
+                    <p class="leading-tight text-justify text-custom3 mb-3">
+                        2023
+                    </p>
+                </div>
+            </div>
+
+            <!-- right -->
+            <div class="flex md:contents">
+                <div class="blocPro col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md opacity-0 transition-all ease-in-out delay-150 duration-300">
+                    <h3 class="font-semibold text-lg mb-1">EasyFormer <span class="mx-2">-</span> Stage de développeur web</h3>
+                    <div class="flex items-end flex-col">
+                        <p class="leading-tight text-justify text-custom3 mb-3">
+                            2023
+                        </p>
+                    </div>
+                </div>
+                <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                    <div class="h-full w-6 flex items-center justify-center">
+                        <div class="h-full w-1 bg-custom1 pointer-events-none"></div>
+                    </div>
+                    <div
+                            class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-custom1 shadow"
+                    ></div>
+                </div>
+                <div
+                        class="blocEdu col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md transition-all ease-in-out delay-150 duration-300"
+                >
+                    <h3 class="font-semibold text-lg mb-1">Lycée technique Robert Schuman, Dugny <span class="mx-2">-</span> BTS SIO SLAM</h3>
+                    <p class="leading-tight text-justify text-custom3 mb-3">
+                        2022 - 2024
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</article>
+<article id="competence">
+    <section class="reveal text-white">
+        <div class="max-w-6xl mx-auto px-5 py-24 ">
+            <div class="text-center mb-20">
+                <h1 class=" relative mb-4 text-4xl font-extrabold leading-10 sm:text-5xl sm:leading-none md:text-4xl text-white">Compétences</h1>
+            </div>
+            <div class="relative">
+                <div class="reveal">
+                    <h3 class="text-2xl text-white font-bold">Langage :</h3>
+                    <div class="mt-10 grid grid-cols-5 gap-y-10">
+                        <div class="w-48 h-60 bg-gray-700 flex flex-col items-center px-3 rounded-xl">
+                            <div class="rounded-full w-24 h-24 mt-10">
+                                <img class="w-full h-full object-contain" src="img/compétences/html.png">
+                            </div>
+                            <p class="font-bold mt-5">HTML</p>
+                        </div>
+                        <div class="w-48 h-60 bg-gray-700 flex flex-col items-center px-3 rounded-xl">
+                            <div class="rounded-full w-24 h-24 mt-10">
+                                <img class="w-full h-full object-contain" src="img/compétences/css.png">
+                            </div>
+                            <p class="font-bold mt-5">CSS</p>
+                        </div>
+                        <div class="w-48 h-60 bg-gray-700 flex flex-col items-center px-3 rounded-xl">
+                            <div class="rounded-full w-24 h-24 mt-10">
+                                <img class="w-full h-full object-contain" src="img/compétences/php.png">
+                            </div>
+                            <p class="font-bold mt-5">PHP</p>
+                        </div>
+                        <div class="w-48 h-60 bg-gray-700 flex flex-col items-center px-3 rounded-xl">
+                            <div class="rounded-full w-24 h-24 mt-10">
+                                <img class="w-full h-full object-contain" src="img/compétences/wordpress.png">
+                            </div>
+                            <p class="font-bold mt-5">Wordpress</p>
+                        </div>
+                        <div class="w-48 h-60 bg-gray-700 flex flex-col items-center px-3 rounded-xl">
+                            <div class="rounded-full w-24 h-24 mt-10">
+                                <img class="w-full h-full object-contain" src="img/compétences/java.png">
+                            </div>
+                            <p class="font-bold mt-5">Java</p>
+                        </div>
+                        <div class="w-48 h-60 bg-gray-700 flex flex-col items-center px-3 rounded-xl">
+                            <div class="rounded-full w-24 h-24 mt-10">
+                                <img class="w-full h-full object-contain" src="img/compétences/python.png">
+                            </div>
+                            <p class="font-bold mt-5">Python</p>
+                        </div>
+                        <div class="w-48 h-60 bg-gray-700 flex flex-col items-center px-3 rounded-xl">
+                            <div class="rounded-full w-24 h-24 mt-10">
+                                <img class="w-full h-full object-contain" src="img/compétences/mysql.png">
+                            </div>
+                            <p class="font-bold mt-5">SQL</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-16 reveal">
+                    <h3 class="text-2xl text-white font-bold">Réseau :</h3>
+                    <div class="mt-10 grid grid-cols-5 gap-y-10">
+                        <div class="w-48 h-60 bg-gray-700 flex flex-col items-center px-3 rounded-xl">
+                            <div class="rounded-full w-24 h-24 mt-10">
+                                <img class="w-full h-full object-contain" src="img/compétences/hyperv.png">
+                            </div>
+                            <p class="font-bold mt-5">Hyper-V</p>
+                        </div>
+                        <div class="w-48 h-60 bg-gray-700 flex flex-col items-center px-3 rounded-xl">
+                            <div class="rounded-full w-24 h-24 mt-10">
+                                <img class="w-full h-full object-contain" src="img/compétences/debian.png">
+                            </div>
+                            <p class="font-bold mt-5">Debian</p>
+                        </div>
+                        <div class="w-48 h-60 bg-gray-700 flex flex-col items-center px-3 rounded-xl">
+                            <div class="rounded-full w-24 h-24 mt-10">
+                                <img class="w-full h-full object-contain" src="img/compétences/ubuntu.png">
+                            </div>
+                            <p class="font-bold mt-5">Ubuntu</p>
+                        </div>
+                        <div class="w-48 h-60 bg-gray-700 flex flex-col items-center px-3 rounded-xl">
+                            <div class="rounded-full w-24 h-24 mt-10">
+                                <img class="w-full h-full object-contain" src="img/compétences/windows.png">
+                            </div>
+                            <p class="font-bold mt-5">Windows</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-16 reveal">
+                    <h3 class="text-2xl text-white font-bold">IDE :</h3>
+                    <div class="mt-10 grid grid-cols-5 gap-y-10">
+                        <div class="w-48 h-60 bg-gray-700 flex flex-col items-center px-3 rounded-xl">
+                            <div class="rounded-full w-24 h-24 mt-10">
+                                <img class="w-full h-full object-contain" src="img/compétences/jetbrains.png">
+                            </div>
+                            <p class="font-bold mt-5">Suite Jetbrains</p>
+                        </div>
+                        <div class="w-48 h-60 bg-gray-700 flex flex-col items-center px-3 rounded-xl">
+                            <div class="rounded-full w-24 h-24 mt-10">
+                                <img class="w-full h-full object-contain" src="img/compétences/python.png">
+                            </div>
+                            <p class="font-bold mt-5">IDLE</p>
+                        </div>
+                        <div class="w-48 h-60 bg-gray-700 flex flex-col items-center px-3 rounded-xl">
+                            <div class="rounded-full w-24 h-24 mt-10">
+                                <img class="w-full h-full object-contain" src="img/compétences/vscode.png">
+                            </div>
+                            <p class="font-bold mt-5">VS Code</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+</article>
+<article class="pt-56 pb-32" id="contact">
+    <div class="flex items-center flex-col reveal">
+        <h2 class="text-3xl font-bold text-white mb-20">Comment me contacter ?</h2>
+        <div class="flex flex-row space-x-7">
+            <a href="mailto:theo.lg04@gmail.com" target="_blank" class="w-24 h-24 bg-white p-6 rounded-3xl cursor-pointer hover:w-[22rem] flex flex-row overflow-hidden items-center transition-all ease-in-out delay-150 duration-300">
+                <img class="w-16" src="img/icon/mail.png" alt="icon">
+                <div class="ml-10 text-lg font-bold">
+                    <p class="w-96">theo.lg04@gmail.com</p>
+                </div>
+            </a>
+            <a href="tel:+33767426009" target="_blank" class="w-24 h-24 bg-white p-5 rounded-3xl cursor-pointer hover:w-80 flex flex-row  overflow-hidden items-center transition-all ease-in-out delay-150 duration-300">
+                <img class="w-16" src="img/icon/whatsapp.png" alt="icon">
+                <div class="ml-10 text-xl font-bold">
+                    <p class="w-96">07 67 42 60 09</p>
+                </div>
+            </a>
+            <a href="https://github.com/T4IOO" target="_blank" class="w-24 h-24 bg-white p-6 rounded-3xl cursor-pointer hover:w-60 flex flex-row overflow-hidden items-center transition-all ease-in-out delay-150 duration-300">
+                <img class="w-16" src="img/icon/github.png" alt="icon">
+                <div class="ml-7 text-lg font-bold">
+                    <p class="w-96">T4IOO</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</article>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+</body>
+
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    custom1: '#76ABAE',
+                    custom2: '#101D28',
+                    custom3: '#adadad',
+                    custom4: '#222831'
+                },
+                rotate: {
+                    'customBloc': '-5deg',
+                    'customBloc2': '5deg',
+                },
+                darkMode: 'class',
+            }
+        }
+    }
+</script>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700');
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+    .reveal {
+        position: relative;
+        transform: translateY(150px);
+        opacity: 0;
+        transition: all 2s ease;
+    }
+    .reveal.active {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+</style>
+
+<script>
+    const btnEdu = document.getElementById('educative')
+    const btnPro = document.getElementById('profesionnel')
+    const blocEdu = document.getElementsByClassName('blocEdu')
+    const blocPro = document.getElementsByClassName('blocPro')
+    function changeTimeline(mode) {
+        if(mode === 1) {
+            btnEdu.classList.add('text-custom1')
+            btnEdu.classList.remove('text-white')
+            btnPro.classList.add('text-white')
+            btnPro.classList.remove('text-custom1')
+            for (let i = 0; i < blocEdu.length; i++){
+                blocEdu[i].classList.add('opacity-100')
+                blocEdu[i].classList.remove('opacity-0')
+            }
+            for (let i = 0; i < blocPro.length; i++){
+                blocPro[i].classList.add('opacity-0')
+                blocPro[i].classList.remove('opacity-100')
+            }
+        } else {
+            btnPro.classList.add('text-custom1')
+            btnPro.classList.remove('text-white')
+            btnEdu.classList.add('text-white')
+            btnEdu.classList.remove('text-custom1')
+            for (let i = 0; i < blocPro.length; i++){
+                blocPro[i].classList.add('opacity-100')
+                blocPro[i].classList.remove('opacity-0')
+            }
+            for (let i = 0; i < blocEdu.length; i++){
+                blocEdu[i].classList.add('opacity-0')
+                blocEdu[i].classList.remove('opacity-100')
+            }
+        }
+    }
+
+
+
+    var backButton = document.getElementById('backButton');
+    var minScrollToShowButton = 200; // Réglez cette valeur en fonction de votre préférence
+
+    window.onscroll = function() {
+        var currentScrollPosition = window.scrollY;
+
+        if (currentScrollPosition > minScrollToShowButton) {
+            backButton.classList.add('md:opacity-100');
+            backButton.classList.remove('md:opacity-0');
+            backButton.classList.remove('bottom-0');
+            backButton.classList.add('bottom-16');
+        } else {
+            backButton.classList.add('md:opacity-0');
+            backButton.classList.remove('md:opacity-100');
+            backButton.classList.remove('bottom-16');
+            backButton.classList.add('bottom-0');
+        }
+    };
+
+</script>
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(elem => {
+        elem.addEventListener('click', e => {
+            e.preventDefault();
+            document.querySelector(elem.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth',
+                offsetTop: 20
+            });
+        });
+    });
+</script>
+<script>
+    window.addEventListener('scroll', reveal);
+    function reveal() {
+        let reveals = document.querySelectorAll('.reveal');
+        for(let i = 0; i < reveals.length; i++) {
+            let windowHeight = window.innerHeight;
+            let revealTop = reveals[i].getBoundingClientRect().top;
+            let revealPoint = 150
+            if(revealTop < windowHeight - revealPoint) {
+                reveals[i].classList.add('active');
+            } else {
+                reveals[i].classList.remove('active');
+            }
+        }
+    }
+</script>
+</html>
